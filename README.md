@@ -1,11 +1,9 @@
 # Contents
-- [PetStore APIs Release Notes] (#releasenotes)
-- [Deprecated APIs] (##deprecated-apis)
-- [Using PetStore APIs] (##using-petstore-apis)
+- [PetStore APIs Release Notes](#petstore-apis-release-notes)
+- [Deprecated APIs](#deprecated-apis)
+- [Using PetStore APIs](#using-petstore-apis)
 
-<a name="releasenotes">
 ## PetStore APIs Release Notes
-</a>
 Petstore is a sample API that simulates a pet shop management server. The API allows you to access Petstore data using a set of individual calls. There are three endpoint groups namely Pet, Store and User. Playing around with this API documentation can help you understand how APIMatic docs provide value to you.
 
 ### Manage Pets
