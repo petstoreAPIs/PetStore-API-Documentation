@@ -1,7 +1,7 @@
 Contents:
 - [Swagger PetStore API Release Notes](#swagger-petstore-api-release-notes)
-- [Basic Workflow to use PetStore API](#basic-workflow-to-use-petstore-API) 
-- [Deprecated Endpoints in PetStore API](#deprecated-endpoints-in-petstore-API)
+- [Basic Workflow to use PetStore API](#basic-workflow-to-use-petstore-api) 
+- [Deprecated Endpoints in PetStore API](#deprecated-endpoints-in-petstore-api)
 
 ## Swagger PetStore API Release Notes
 PetStore is a web-based pet shop management application. 
