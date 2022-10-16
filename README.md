@@ -11,9 +11,9 @@ The PetStore API has the following endpoint groups:
 - `user`: This group contains endpoints required to manage customer records.
 
 For additional information on the tasks that you can do with PetStore API, see:
-- Managing the Details of a Pet(#managing-the-details-of-a-pet)
-- Managing the Store Records(#managing-the-store-records)
-- Managing the Customer Records(#managing-the-customer-records)
+- [Managing the Details of a Pet](#managing-the-details-of-a-pet)
+- [Managing the Store Records](#managing-the-store-records)
+- [Managing the Customer Records](#managing-the-customer-records)
 ### Managing the Details of a Pet
 The `pet` group contains the following endpoints that help you manage the records of a pet:
 - `POST /pet`: Adds a new pet to the store. You can add the name of the pet, provide an ID to the pet, and add an image of the pet through an URL.
