@@ -25,10 +25,10 @@ To test the endpoints, use the api key special-key to test the authorization fil
 Scopes grant access to data on an application on behalf of the end user. Each endpoint might declare one or more scopes.
 
 The following scopes are available:
-| Scope Name   | Description |
-| :---          |    :----:                        |
-| `read:pets`   | reads details of the pets        |
-| `write:pets`  | modifies the details of the pets |
+| Scope Name   | Description                      |
+| :---         |    :----:                        |
+| `read:pets`  | reads details of the pets        |
+| `write:pets` | modifies the details of the pets |
 
 
 API requires the following scopes. Select which ones you want to grant to Swagger UI.
