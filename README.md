@@ -70,11 +70,56 @@ The group contains the following endpoints that help you manage customer records
 
 #### API Response
 
-| Syntax      | Description |
+| Name        | Description |
 | ----------- | ----------- |
 | code        | Number      |
 | type        | String      |
 | message     | String      |
+
+#### Category
+| Name        | Description |
+| ----------- | ----------- |
+| id          | Long        |
+| name        | String      |
+
+#### Pet
+| Name        | Description   |
+| ----------- | --------------|
+| id          | Long          |
+| Category    | Category      |
+| name        | String        |
+| photoUrls   | array<String> |
+| tags        | array<Tag>    |
+| status      | Status        |
+
+#### Tag
+| Name        | Description   |
+| ----------- | --------------|
+| id          | Long          |
+| name        | String        |
+
+#### Order
+| Name        | Description   |
+| ----------- | --------------|
+| id          | Long          |
+| petId       | Long          |
+| quantity    | Number        |
+| shipDate    | DateTime      |
+| tags        | array<Tag>    |
+| status      | Status1       |
+| complete    | Boolean       |
+
+#### User
+| Name         | Description   |
+| ------------ | --------------|
+| id           | Long          |
+| username     | String        |
+| firstName    | String        |
+| lastName     | String        |
+| email        | String        |
+| password     | String        |
+| phone        | String        |
+| userStatus   | Number        |
 
 ## Basic Workflow to use PetStore API
 
