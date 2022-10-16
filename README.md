@@ -138,7 +138,8 @@ This section lists endpoints that are deprecated currently or those that will be
 
 #### GET /pet/findByTags
 
-The `GET /pet/findByTags` helps users to find pets using multiple tags with comma separated strings. Effective 17th April 2023, the GET /pet/findByTags endpoint is deprecated, and will no longer be available for use. To find pets, you must migrate to using `GET /pet/{petId}` or (`GET /pet/findByStatus`). You can no longer use multiple strings to find a specific pet.
+The `GET /pet/findByTags` helps users to find pets using multiple tags with comma separated strings. Effective 17th April 2023, the `GET /pet/findByTags` endpoint is deprecated, and will no longer be available for use. To find pets, you must migrate to using `GET /pet/{petId}` or (`GET /pet/findByStatus`). You can no longer use multiple strings to find a specific pet.
   
 **Warning!**
-`Continuing to use GET /pet/findByTags will break your code from 17th April 17 2023.` 
+ 
+`Continuing to use GET /pet/findByTags will break your code from 17th April 2023.` 
