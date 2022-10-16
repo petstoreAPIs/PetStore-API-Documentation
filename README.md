@@ -1,21 +1,25 @@
-# Contents
-- [PetStore APIs Release Notes](#petstore-apis-release-notes)
-- [Deprecated APIs](#deprecated-apis)
-- [Using PetStore APIs](#using-petstore-apis)
+# Contents:
+- [PetStore API Release Notes](#petstore-api-release-notes)
+- [Workflow to use Pet Endpoint Group](#workflow-to-use-pet-endpoint-group) 
+- [Deprecated Endpoints in PetStore API](#deprecated-endpoints-in-petstore-API)
 
-## PetStore APIs Release Notes
-Petstore is a sample API that simulates a pet shop management server. The API allows you to access Petstore data using a set of individual calls. There are three endpoint groups namely Pet, Store and User. Playing around with this API documentation can help you understand how APIMatic docs provide value to you.
+## PetStore API Release Notes
+PetStore is a pet shop management solution. The PetStore API allows you to add, modify, or access data from the PetStore solution using API calls. 
+The PetStore API has the following endpoint groups: 
+- *pet*: This group contains endpoints required to manage the records of a Pet. You can register, access, modify, and delete records of pets.
+- *store*: This group contains endpoints required to manage store orders. You can create, update, and retrieve details of store orders.
+- *user*: This group contains endpoints required to manage customer records.
 
 ### Manage Pets
-This group contains every endpoint needed to manage Pet's records. Add, remove, retrieve or update them.
+
 
 ### Manage Store
-This group contains endpoints required to manage your orders. Create order records, update order status, or retrieve your inventory details for instance.
+
 
 ### Manage Users
 Manage your customer records through this endpoint group. Contains endpoints for users to log in and out too.
 
-## Deprecated APIs
+## Deprecated Endpoints in PetStore API
 Example text blah. Example text blah. Example text blah. Example text blah. 
 Example text blah. Example text blah. Example text blah. Example text blah. 
 Example text blah. Example text blah. Example text blah. Example text blah. 
