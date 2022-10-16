@@ -26,6 +26,7 @@ Your application must obtain user authorization before it can execute an endpoin
 Scopes grant access to data on an application on behalf of the end user. Each endpoint might declare one or more scopes.
 
 The following scopes are available:
+
 | Scope Name  | Description                     |
 | ----------- | ------------------------------- |
 | `read:pets` | reads details of the pets       |
