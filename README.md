@@ -9,12 +9,12 @@ The PetStore API has the following endpoint groups:
 - `pet`: This group contains endpoints required to manage the records of a pet. You can register, access, modify, and delete records of pets.
 - `store`: This group contains endpoints required to manage store orders. You can create, update, and retrieve details of store orders.
 - `user`: This group contains endpoints required to manage customer records.
-For information about planned deprecation, see [Deprecated Endpoints in PetStore API](#deprecated-endpoints-in-petstore-API)
-
 For additional information on the tasks that you can do with PetStore API, see:
 - [Managing Pet Details](#managing-pet-details)
 - [Managing Store Records](#managing-store-records)
 - [Managing Customer Records](#managing-customer-records)
+For information about testing the various endpoints mentioned in the release notes, see ![Petstore API](https://petstore.swagger.io/).
+For information about planned deprecation of endpoints, see [Deprecated Endpoints in PetStore API](#deprecated-endpoints-in-petstore-API).
 ### Managing Pet Details 
 The `pet` group contains the following endpoints that help you manage the records of a pet:
 - `POST /pet`: Adds a new pet to the store. You can add the name of the pet, provide an ID to the pet, and add an image of the pet through an URL.
