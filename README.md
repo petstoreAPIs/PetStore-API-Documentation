@@ -1,4 +1,4 @@
-# Contents:
+ Contents:
 - [PetStore API Release Notes](#petstore-api-release-notes)
 - [Workflow to use Pet Endpoint Group](#workflow-to-use-pet-endpoint-group) 
 - [Deprecated Endpoints in PetStore API](#deprecated-endpoints-in-petstore-API)
@@ -21,7 +21,7 @@ The `pet` group contains the following endpoints that help you manage the record
 - `PUT /pet`: Updates the details of an existing pet record in the store.
 - `POST /pet/{petId}`: Updates the details of an existing pet record with form data.
 - `GET /pet/{petId}`: Returns the details of a pet when you provide the pet ID.
-- `GET /pet/findByStatus`: Returns the status of a pet; whether it is sold, available, or pending.
+- `GET /pet/findByStatus`: Returns the status of a pet; whether the pet is still available, sold, or the sale is pending.
 - `GET /pet/findByTags`: Returns the status of a pet through tags.
 - `DELETE /pet/{petId}`: Deletes a pet record when you provide the pet ID.
 ### Managing Store Records
@@ -29,7 +29,7 @@ The `store` group contains the following endpoints that help you manage store re
 - `POST /store/order`: Places an order for a pet. 
 - `GET /store/order/{orderId}`: Returns the details of an order when you provide order ID. 
 - `GET /store/inventory`: Returns pet inventories by status.
-- `DELETE /store/order/{orderId}`: Deletes a store order when you provide the order I D.
+- `DELETE /store/order/{orderId}`: Deletes a store order when you provide the order ID.
 ### Managing Customer Records
 The group contains the following endpoints that help you manage customer records and control user log in and log out: 
 - `POST /user`: Creates a user with details such as contact information. This operation can only be done by a user already logged into the PetStore application.
