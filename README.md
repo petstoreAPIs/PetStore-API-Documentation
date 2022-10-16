@@ -31,7 +31,7 @@ The `store` group contains the following endpoints that help you manage store re
 - `GET /store/inventory`: Returns pet inventories by status.
 - `DELETE /store/order/{orderId}`: Deletes a store order when you provide the order ID.
 ### Managing Customer Records
-Manage your customer records through this endpoint group. Contains endpoints for users to log in and out too.
+The group contains the following endpoints that help you manage customer records and control user log in and log out: 
 - `POST /user`: Creates a user with details such as contact information. This operation can only be done by a user already logged into the PetStore application.
 - `POST /user/createWithArray`: Creates a list of users with given input array.
 - `POST /user/createWithList`: Creates a list of users with given input array.
