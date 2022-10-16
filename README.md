@@ -15,7 +15,8 @@ For additional information on the tasks that you can do with PetStore API, see:
 - [Managing Store Records](#managing-store-records)
 - [Managing Customer Records](#managing-customer-records)
 
-For information about testing the various endpoints mentioned in the release notes, see ![Petstore API](https://petstore.swagger.io/).
+For information about testing the various endpoints mentioned in the release notes, see [Swagger Petstore API](https://petstore.swagger.io/).
+
 For information about planned deprecation of endpoints, see [Deprecated Endpoints in PetStore API](#deprecated-endpoints-in-petstore-API).
 ### Managing Pet Details 
 The `pet` group contains the following endpoints that help you manage the records of a pet:
