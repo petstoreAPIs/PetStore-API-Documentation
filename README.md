@@ -1,22 +1,20 @@
- Contents:
+Contents:
 - [PetStore API Release Notes](#petstore-api-release-notes)
 - [Basic Workflow to use PetStore API](#basic-workflow-to-use-petstore-API) 
 - [Deprecated Endpoints in PetStore API](#deprecated-endpoints-in-petstore-API)
 
 ## PetStore API Release Notes
-PetStore is a web-based pet shop management application. The PetStore API allows you to add, modify, or access data from the PetStore application using API calls. 
+PetStore is a web-based pet shop management application. 
+The [Swagger Petstore API](https://petstore.swagger.io/) allows you to add, modify, or access data from the PetStore application using API calls. 
 The PetStore API has the following endpoint groups: 
 - `pet`: This group contains endpoints required to manage the records of a pet. You can register, access, modify, and delete records of pets.
 - `store`: This group contains endpoints required to manage store orders. You can create, update, and retrieve details of store orders.
 - `user`: This group contains endpoints required to manage customer records.
-
 For additional information on the tasks that you can do with PetStore API, see:
 - [Managing Pet Details](#managing-pet-details)
 - [Managing Store Records](#managing-store-records)
 - [Managing Customer Records](#managing-customer-records)
-
 For information about testing the various endpoints mentioned in the release notes, see [Swagger Petstore API](https://petstore.swagger.io/).
-
 For information about planned deprecation of endpoints, see [Deprecated Endpoints in PetStore API](#deprecated-endpoints-in-petstore-API).
 ### Managing Pet Details 
 The `pet` group contains the following endpoints that help you manage the records of a pet:
