@@ -19,9 +19,8 @@ For additional information on the tasks that you can do with PetStore API, see:
 - [Managing Customer Records](#managing-customer-records)
 
 ### Testing Swagger PetStore API
-To test the various endpoints mentioned in the release notes, go to [Swagger Petstore API](https://petstore.swagger.io/).
 To test the endpoints, use the api key `special-key` to test the authorization filters.
-### Authorization
+#### Authorization
 Your application must obtain user authorization before it can execute an endpoint call. PetStore API uses OAuth 2.0 Implicit Grant to obtain a user's consent to perform an API request on user's behalf. The Authorization URL is https://petstore.swagger.io/oauth/authorize.
 #### Scopes
 Scopes grant access to data on an application on behalf of the end user. Each endpoint might declare one or more scopes.
