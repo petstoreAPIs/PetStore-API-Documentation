@@ -26,10 +26,10 @@ Your application must obtain user authorization before it can execute an endpoin
 Scopes grant access to data on an application on behalf of the end user. Each endpoint might declare one or more scopes.
 
 The following scopes are available:
-| Scope Name   | Description                      |
-| :---         |    :----:                        |
-| `read:pets`  | reads details of the pets        |
-| `write:pets` | modifies the details of the pets |
+| Scope Name  | Description                     |
+| ----------- | ------------------------------- |
+| `read:pets` | reads details of the pets       |
+| `write:pets`| modifies the details of the pets|
 
 For information about planned deprecation of endpoints, see [Deprecated Endpoints in PetStore API](#deprecated-endpoints-in-petstore-API).
 ### Managing Pet Details 
