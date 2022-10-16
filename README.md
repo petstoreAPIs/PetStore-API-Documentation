@@ -43,6 +43,7 @@ The group contains the following endpoints that help you manage customer records
 
 ## Basic Workflow to use PetStore API
 The following flowchart shows a basic workflow using some of the PetStore endpoints:
+![Workflow](https://user-images.githubusercontent.com/115869494/196049932-e74b3b7b-88b4-400b-9cbc-8382db52c808.png)
 
 
 ## Deprecated Endpoints in PetStore API
