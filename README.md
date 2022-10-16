@@ -50,5 +50,5 @@ The following flowchart shows a basic workflow using some of the PetStore API en
 ## Deprecated Endpoints in PetStore API
 This section lists endpoints that are deprecated currently or those that will be no longer in use in future. If available, the endpoints that replace the deprecated endpoints are also mentioned in this section.
 ### `GET /pet/findByTags`
-The `GET /pet/findByTags` helps users to find pets using multiple tags with comma separated strings. Effective April 17 2023, the `GET /pet/findByTags` endpoint is deprecated, and will no longer be available for use. To find pets, you must migrate to using `GET /pet/{petId}` or (`GET /pet/findByStatus`). You can no longer use multiple strings to finding a specific pet.
+The `GET /pet/findByTags` helps users to find pets using multiple tags with comma separated strings. Effective April 17 2023, the `GET /pet/findByTags` endpoint is deprecated, and will no longer be available for use. To find pets, you must migrate to using `GET /pet/{petId}` or (`GET /pet/findByStatus`). You can no longer use multiple strings to find a specific pet.
 > Continuing to use `GET /pet/findByTags` will break your code from  April 17, 2023.
