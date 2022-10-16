@@ -4,11 +4,12 @@
 - [Deprecated Endpoints in PetStore API](#deprecated-endpoints-in-petstore-API)
 
 ## PetStore API Release Notes
-PetStore is a pet shop management solution. The PetStore API allows you to add, modify, or access data from the PetStore solution using API calls. 
+PetStore is a web-based pet shop management application. The PetStore API allows you to add, modify, or access data from the PetStore application using API calls. 
 The PetStore API has the following endpoint groups: 
 - `pet`: This group contains endpoints required to manage the records of a pet. You can register, access, modify, and delete records of pets.
 - `store`: This group contains endpoints required to manage store orders. You can create, update, and retrieve details of store orders.
 - `user`: This group contains endpoints required to manage customer records.
+For information about planned deprecation, see [Deprecated Endpoints in PetStore API](#deprecated-endpoints-in-petstore-API)
 
 For additional information on the tasks that you can do with PetStore API, see:
 - [Managing Pet Details](#managing-pet-details)
@@ -42,9 +43,12 @@ The group contains the following endpoints that help you manage customer records
 - `DELETE /user/{username}`: Deletes the user. This operation can only be done by a user already logged into the PetStore application.
 
 ## Basic Workflow to use PetStore API
-The following flowchart shows a basic workflow using some of the PetStore endpoints:
+The following flowchart shows a basic workflow using some of the PetStore API endpoints:
 ![Workflow](https://user-images.githubusercontent.com/115869494/196049932-e74b3b7b-88b4-400b-9cbc-8382db52c808.png)
 
 
 ## Deprecated Endpoints in PetStore API
-### Creating a Pet ID
+This section lists endpoints that are deprecated currently or those that will be no longer in use in future. If available, the endpoints that replace the deprecated endpoints are also mentioned in this section.
+### `GET /pet/findByTags`
+The `GET /pet/findByTags` helps users to find pets using multiple tags with comma separated strings. Effective April 17 2023, the `GET /pet/findByTags` endpoint is deprecated, and will no longer be available for use. To find pets, you must migrate to using `GET /pet/{petId}` or (`GET /pet/findByStatus`). You can no longer use multiple strings to finding a specific pet.
+> Continuing to use `GET /pet/findByTags` will break your code from  April 17, 2023.
