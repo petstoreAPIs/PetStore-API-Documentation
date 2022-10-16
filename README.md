@@ -1,6 +1,6 @@
  Contents:
 - [PetStore API Release Notes](#petstore-api-release-notes)
-- [Workflow to use Pet Endpoint Group](#workflow-to-use-pet-endpoint-group) 
+- [Basic Workflow to use PetStore API](#basic-workflow-to-use-petstore-API) 
 - [Deprecated Endpoints in PetStore API](#deprecated-endpoints-in-petstore-API)
 
 ## PetStore API Release Notes
@@ -41,7 +41,9 @@ The group contains the following endpoints that help you manage customer records
 - `GET /user/{username}`: Returns user by user name.
 - `DELETE /user/{username}`: Deletes the user. This operation can only be done by a user already logged into the PetStore application.
 
-## Workflow to use Pet Endpoint Group
+## Basic Workflow to use PetStore API
+The following flowchart shows a basic workflow using some of the PetStore endpoints:
+
 
 
 ## Deprecated Endpoints in PetStore API
