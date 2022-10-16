@@ -29,7 +29,7 @@ The `store` group contains the following endpoints that help you manage store re
 - `POST /store/order`: Places an order for a pet. 
 - `GET /store/order/{orderId}`: Returns the details of an order when you provide order ID. 
 - `GET /store/inventory`: Returns pet inventories by status.
-- `DELETE /store/order/{orderId}`: Deletes a store order when you provide the order ID.
+- `DELETE /store/order/{orderId}`: Deletes a store order when you provide the order I D.
 ### Managing Customer Records
 The group contains the following endpoints that help you manage customer records and control user log in and log out: 
 - `POST /user`: Creates a user with details such as contact information. This operation can only be done by a user already logged into the PetStore application.
@@ -42,18 +42,7 @@ The group contains the following endpoints that help you manage customer records
 - `DELETE /user/{username}`: Deletes the user. This operation can only be done by a user already logged into the PetStore application.
 
 ## Workflow to use Pet Endpoint Group
-Example text blah. Example text blah. Example text blah. Example text blah. 
-Example text blah. Example text blah. Example text blah. Example text blah. 
-Example text blah. Example text blah. Example text blah. Example text blah. 
-Example text blah. Example text blah. 
-Example text blah. Example text blah. Example text blah. Example text blah. 
-Example text blah. Example text blah. Example text blah. Example text blah. 
-Example text blah. Example text blah. Example text blah. Example text blah. 
-Example text blah. Example text blah. 
-Example text blah. Example text blah. Example text blah. Example text blah. 
-Example text blah. Example text blah. Example text blah. Example text blah. 
-Example text blah. Example text blah. Example text blah. Example text blah. 
-Example text blah. Example text blah. 
+
 
 ## Deprecated Endpoints in PetStore API
 ### Creating a Pet ID
