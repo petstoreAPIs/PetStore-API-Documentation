@@ -18,7 +18,20 @@ For additional information on the tasks that you can do with PetStore API, see:
 - [Managing Store Records](#managing-store-records)
 - [Managing Customer Records](#managing-customer-records)
 
-For information about testing the various endpoints mentioned in the release notes, see [Swagger Petstore API](https://petstore.swagger.io/).
+### Testing Swagger PetStore API
+To test the various endpoints mentioned in the release notes, go to [Swagger Petstore API](https://petstore.swagger.io/).
+To test the endpoints, use the api key special-key to test the authorization filters.
+#### Scopes
+Scopes grant access to data on an application on behalf of the end user. Each endpoint might declare one or more scopes.
+
+The following scopes are available:
+| Scope Name   | Description |
+| :---          |    :----:                        |
+| `read:pets`   | reads details of the pets        |
+| `write:pets`  | modifies the details of the pets |
+
+
+API requires the following scopes. Select which ones you want to grant to Swagger UI.
 
 For information about planned deprecation of endpoints, see [Deprecated Endpoints in PetStore API](#deprecated-endpoints-in-petstore-API).
 ### Managing Pet Details 
