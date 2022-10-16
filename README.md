@@ -77,12 +77,14 @@ The group contains the following endpoints that help you manage customer records
 | message     | String      |
 
 #### Category
+
 | Name        | Description |
 | ----------- | ----------- |
 | id          | Long        |
 | name        | String      |
 
 #### Pet
+
 | Name        | Description   |
 | ----------- | --------------|
 | id          | Long          |
@@ -93,12 +95,14 @@ The group contains the following endpoints that help you manage customer records
 | status      | Status        |
 
 #### Tag
+  
 | Name        | Description   |
 | ----------- | --------------|
 | id          | Long          |
 | name        | String        |
 
 #### Order
+
 | Name        | Description   |
 | ----------- | --------------|
 | id          | Long          |
@@ -110,6 +114,7 @@ The group contains the following endpoints that help you manage customer records
 | complete    | Boolean       |
 
 #### User
+
 | Name         | Description   |
 | ------------ | --------------|
 | id           | Long          |
