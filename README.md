@@ -45,7 +45,5 @@ The group contains the following endpoints that help you manage customer records
 The following flowchart shows a basic workflow using some of the PetStore endpoints:
 
 
-
-
 ## Deprecated Endpoints in PetStore API
 ### Creating a Pet ID
