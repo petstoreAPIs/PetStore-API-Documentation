@@ -5,6 +5,7 @@ Contents:
 
 ## PetStore API Release Notes
 PetStore is a web-based pet shop management application. 
+
 The [Swagger Petstore API](https://petstore.swagger.io/) allows you to add, modify, or access data from the PetStore application using API calls. 
 
 The PetStore API has the following endpoint groups: 
