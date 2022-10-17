@@ -21,9 +21,9 @@ For additional information on the tasks that you can do with PetStore API, see:
 ### Testing Swagger PetStore API
 To test the endpoints, use the api key `special-key` to test the authorization filters.
 #### Authorization
-Your application must obtain user authorization before it can execute an endpoint call. PetStore API uses OAuth 2.0 Implicit Grant to obtain a user's consent to perform an API request on user's behalf. The Authorization URL is https://petstore.swagger.io/oauth/authorize.
+Your application must obtain user authorization before it can execute an endpoint call. PetStore API uses OAuth 2.0 Implicit Grant to obtain the consent of a user to perform an API request. The Authorization URL is https://petstore.swagger.io/oauth/authorize.
 #### Scopes
-Scopes grant access to data on an application on behalf of the end user. Each endpoint might declare one or more scopes.
+Scopes grant access to data on an application on behalf of the user. Each endpoint might declare one or more scopes.
 
 The following scopes are available:
 
@@ -56,7 +56,7 @@ The `store` group contains the following endpoints that help you manage store re
 
 ### Managing Customer Records
 
-The group contains the following endpoints that help you manage customer records and control user log in and log out: 
+The group contains the following endpoints that help you manage customer records: 
 - `POST /user`: Creates a user with details such as contact information. This operation can only be done by a user already logged into the PetStore application.
 - `POST /user/createWithArray`: Creates a list of users with given input array.
 - `POST /user/createWithList`: Creates a list of users with given input array.
@@ -134,7 +134,7 @@ The following flowchart shows a basic workflow using some of the PetStore API en
 
 ## Deprecated Endpoints in PetStore API
 
-This section lists endpoints that are deprecated currently or those that will be no longer in use in future. If available, the endpoints that replace the deprecated endpoints are also mentioned in this section.
+This section lists endpoints that are deprecated currently or those that will no longer be in use in future. If available, the endpoints that replace the deprecated endpoints are also mentioned in this section.
 
 #### GET /pet/findByTags
 
