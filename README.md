@@ -56,7 +56,7 @@ The `store` group contains the following endpoints that help you manage store re
 
 ### Managing Customer Records
 
-The group contains the following endpoints that help you manage customer records: 
+The `user` group contains the following endpoints that help you manage customer records: 
 - `POST /user`: Creates a user with details such as contact information. This operation can only be done by a user already logged into the PetStore application.
 - `POST /user/createWithArray`: Creates a list of users with given input array.
 - `POST /user/createWithList`: Creates a list of users with given input array.
