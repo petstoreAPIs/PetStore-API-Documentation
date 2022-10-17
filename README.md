@@ -1,4 +1,4 @@
-Contents:
+### Contents:
 - [Swagger PetStore API Release Notes](#swagger-petstore-api-release-notes)
 - [Basic Workflow to use PetStore API](#basic-workflow-to-use-petstore-api) 
 - [Deprecated Endpoints in PetStore API](#deprecated-endpoints-in-petstore-api)
